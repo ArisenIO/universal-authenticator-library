@@ -34,12 +34,12 @@ Guidelines for bug reports:
    reported.
 
 1. **Check if the issue has been fixed** &mdash; look for [closed issues in the
-   current milestone](https://github.com/EOSIO/universal-authenticator-library/issues?q=is%3Aissue+is%3Aclosed) or try to reproduce it
+   current milestone](https://github.com/ARISENIO/universal-authenticator-library/issues?q=is%3Aissue+is%3Aclosed) or try to reproduce it
    using the latest `develop` branch.
 
 A good bug report shouldn't leave others needing to chase you up for more information. Be sure to include the details of your environment and relevant tests that demonstrate the failure.
 
-[Report a bug](https://github.com/EOSIO/universal-authenticator-library/issues/new?title=Bug%3A)
+[Report a bug](https://github.com/ARISENIO/universal-authenticator-library/issues/new?title=Bug%3A)
 
 ### Feature Requests
 
@@ -59,7 +59,7 @@ Change requests cover both architectural and functional changes to how universal
 
 ## Working on universal-authenticator-library
 
-Code contributions are welcome and encouraged! If you are looking for a good place to start, check out the [good first issue](https://github.com/EOSIO/universal-authenticator-library/labels/good%20first%20issue) label in GitHub issues.
+Code contributions are welcome and encouraged! If you are looking for a good place to start, check out the [good first issue](https://github.com/ARISENIO/universal-authenticator-library/labels/good%20first%20issue) label in GitHub issues.
 
 Also, please follow these guidelines when submitting code:
 
@@ -67,8 +67,8 @@ Also, please follow these guidelines when submitting code:
 
 To get it out of the way:
 
-- **[develop](https://github.com/EOSIO/universal-authenticator-library/tree/develop)** is the development branch. All work on the next release happens here so you should generally branch off `develop`. Do **NOT** use this branch for a production site.
-- **[master](https://github.com/EOSIO/universal-authenticator-library)** contains the latest release of universal-authenticator-library. This branch may be used in production. Do **NOT** use this branch to work on universal-authenticator-library's source.
+- **[develop](https://github.com/ARISENIO/universal-authenticator-library/tree/develop)** is the development branch. All work on the next release happens here so you should generally branch off `develop`. Do **NOT** use this branch for a production site.
+- **[master](https://github.com/ARISENIO/universal-authenticator-library)** contains the latest release of universal-authenticator-library. This branch may be used in production. Do **NOT** use this branch to work on universal-authenticator-library's source.
 
 ### Submitting Pull Requests
 

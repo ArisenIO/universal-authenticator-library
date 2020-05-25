@@ -41,10 +41,10 @@ export interface SignTransactionConfig {
   /** If the transaction should also be broadcast */
   broadcast?: boolean
 
-  /** Number of blocks behind (for use with eosjs) */
+  /** Number of blocks behind (for use with arisen) */
   blocksBehind?: number
 
-  /** Number of seconds before expiration (for use with eosjs) */
+  /** Number of seconds before expiration (for use with arisen) */
   expireSeconds?: number
 }
 

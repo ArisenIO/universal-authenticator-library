@@ -1,10 +1,10 @@
 # Universal Authenticator Library (UAL Core for short)
 
-![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
+![ARISEN Labs](https://img.shields.io/badge/ARISEN-Labs-5cb3ff.svg)
 
-# About EOSIO Labs
+# About ARISEN Labs
 
-EOSIO Labs repositories are experimental.  Developers in the community are encouraged to use EOSIO Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.
+ARISEN Labs repositories are experimental.  Developers in the community are encouraged to use ARISEN Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.
 
 ## Why UAL?
 App Developers need to support many authentication providers (wallets) in order to maximize user reach and permit user choice. Today, this usually means implementing and maintaining many different APIs. The purpose of this library is to simplify, for App Developers, supporting multiple authentication providers.
@@ -52,25 +52,25 @@ Logging in returns 1 or more `User` objects. A `User` object provides the abilit
 
 ## Usage (Dapp Developer)
 
-Requires one or more Authenticators to communicate with the auth provider. Currently supported Authenticators include the following. See the [UAL New Authenticator Walkthrough](https://github.com/EOSIO/ual-authenticator-walkthrough) to learn how contributors could add new Authenticators.
+Requires one or more Authenticators to communicate with the auth provider. Currently supported Authenticators include the following. See the [UAL New Authenticator Walkthrough](https://github.com/ARISENIO/ual-authenticator-walkthrough) to learn how contributors could add new Authenticators.
 
 Authenticators initially created by block.one:
- - [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
- - [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
- - [UAL for Ledger](https://github.com/EOSIO/ual-ledger)
- - [UAL for Token Pocket](https://github.com/EOSIO/ual-token-pocket)
+ - [UAL for Scatter](https://github.com/ARISENIO/ual-scatter)
+ - [UAL for Lynx](https://github.com/ARISENIO/ual-lynx)
+ - [UAL for Ledger](https://github.com/ARISENIO/ual-ledger)
+ - [UAL for Token Pocket](https://github.com/ARISENIO/ual-token-pocket)
 
 Authenticators contributed by wallet providers and other community members:  
  - [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
  - [UAL for Anchor](https://github.com/greymass/ual-anchor)
 
 Recommended to use one of the prebuilt Renderers rather than the library directly:
- - [UAL Renderer for PlainJS](https://github.com/EOSIO/ual-plainjs-renderer)
- - [UAL Renderer for ReactJS](https://github.com/EOSIO/ual-reactjs-renderer)
+ - [UAL Renderer for PlainJS](https://github.com/ARISENIO/ual-plainjs-renderer)
+ - [UAL Renderer for ReactJS](https://github.com/ARISENIO/ual-reactjs-renderer)
 
 Example usage can be found at:
- - [Basic Example App for UAL with PlainJS](https://github.com/EOSIO/ual-plainjs-renderer/tree/master/examples)
- - [Basic Example App for UAL with ReactJS](https://github.com/EOSIO/ual-reactjs-renderer/tree/master/examples)
+ - [Basic Example App for UAL with PlainJS](https://github.com/ARISENIO/ual-plainjs-renderer/tree/master/examples)
+ - [Basic Example App for UAL with ReactJS](https://github.com/ARISENIO/ual-reactjs-renderer/tree/master/examples)
 
 ## Contributing
 
